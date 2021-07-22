@@ -34,7 +34,7 @@ ENTRYPOINT [ "mkdocs", "serve", "--dev-addr=0.0.0.0:80" ]
 
 
 FROM nginx:latest
-ARG APP_PATH=/usr/src/app
+ARG APP_PATH=/usr/src/mkdocs
 
 WORKDIR /usr/share/nginx/html
 COPY --from=builder ${APP_PATH}/site /usr/share/nginx/html
