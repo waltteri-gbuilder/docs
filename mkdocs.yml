@@ -1,0 +1,12 @@
+site_name: GB Docs
+site_url: https://docs.gbuilder.com/
+nav:
+    - Home: index.md
+    - About: about.md
+    - GB-Core:
+      - Main: gb-core/main.md
+      - Nice to know: gb-core/nice-to-know.md
+    - GB-Ops:
+      - Upcloud:
+        - Hosts: ops/upcloud/hosts.md
+theme: readthedocs
